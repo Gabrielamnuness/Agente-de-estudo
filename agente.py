@@ -5,7 +5,7 @@ from crewai import Agent, Task, Crew, Process, LLM
 st.header("Agentes de IA para Estudo")
 st.write("Digite o Tema de Estudo")
 
-api_key = os.getenv('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')
+api_key = os.getenv('')
 
 tema = st.text_input("Tema", placeholder="Digite o tema de estudo")
 
